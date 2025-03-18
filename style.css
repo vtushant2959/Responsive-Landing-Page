@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+header nav a:hover {
+    color: #00bcd4; /* Highlighted color on hover */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    flex: 1; /* This makes the main section take up all available space */
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(to bottom, #00bcd4, #fff);
+    padding: 5em;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners for hero section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.3s ease; /* Add hover animation */
+}
+
+.hero:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #0288d1; /* Darker shade on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    margin: 1em;
+    padding: 1em;
+    width: calc(33.33% - 2em);
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.feature:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* Enhanced shadow on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature {
+        width: calc(50% - 2em);
+        transition-duration:.5s
+}
+@media (max-width:.
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
